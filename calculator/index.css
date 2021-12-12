@@ -1,0 +1,41 @@
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./img/bg1.png);
+    background-size: cover;
+    text-align: center;
+    color: white;
+    font-size: large;
+}
+
+span {
+    border-bottom: 2px solid black;
+    padding: 8px;
+}
+
+#main-box {
+    width: 680px;
+    height: 320px;
+    border-radius: 20px;
+    position: relative;
+    margin: 6% auto;
+    background: transparent;
+    padding-top: 20px;
+    box-shadow: 0 0 30px 5px lightgray;
+}
+
+button {
+    padding: 10px;
+    margin: 20px;
+    margin-top: 40px;
+    border-radius: 5px;
+    width: 100px;
+    box-shadow: 0 0 30px 5px lightgray;
+    cursor: pointer;
+}
+
+#num1-el {
+    color: white;
+}
+
+#add {
+    color: white;
+}
