@@ -1,16 +1,18 @@
-// initialize the count
-// listen for clicks on increment button
-// increment count if clicked
-// change the count-el to reflect the new count
-
-let counter = 0;
 let countEl = document.getElementById("count-el");
+let saveEl = document.getElementById("save-el");
+let counter = 0;
+
 
 function increment() {
     counter += 1;
-    countEl.innerText = counter;
+    countEl.textContent = counter;
 }
 
 function save() {
-    console.log("the button was bing bonged %s times", counter);
+    let countStr = counter + " - ";
+    console.log("the button was bing bonged %s times", countStr);
+    saveEl.textContent += countStr;
+    // set counter to 0 after saving previous value
+    countEl.textContent = 0;
+    counter = 0;
 }
