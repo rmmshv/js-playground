@@ -1,0 +1,18 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url(./img/bg.jpeg);
+    background-size: cover;
+    color: burlywood;
+    font-size: 30px;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    color: white;
+    font-size: 26px;
+    font-weight: bolder;
+}
